@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min (1).css">
+    <link rel="stylesheet" href="../css/media.css">
+     <link rel="stylesheet" href="../css/styel.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container py-5">
+        <div class="groub mx-auto w-75 py-5 d-flex justify-content-center flex-column ">
+            <h1 class="titel">Smart Login System</h1>
+            <div class="groub-inbut ms-4 m-2 ">
+                <input id="yournam" class="form-control" type="text" placeholder="Enter your name">
+            </div>
+            <div class="groub-inbut ms-4 m-2 ">
+                <input id="youremil" class="form-control" type="email" placeholder="Enter your emil">
+            </div>
+         
+            <div class="groub-inbut ms-4 m-2 position-relative">
+                <input id="password"class="form-control" type="password" placeholder="Enter your password">
+                <i id="passicon" class="fa-sharp fa-solid  position-absolute  top-100 translate-middle-y end-0 pe-2 "></i>
+            </div>
+            <div class="groub-button py-3">
+                <p id="successMessage" class="d-none d-flex justify-content-center align-items-center">Success</p>
+                <p id="warning" class="text-danger  d-none d-flex justify-content-center align-items-center">All inputs is required</p>
+                <p id="warningmessage" class="text-danger  d-none d-flex justify-content-center align-items-center">incorrect name or password</p>
+                <p id="warningemail" class="text-danger  d-none d-flex justify-content-center align-items-center">email already exists</p>
+    <button id="signButton"class="form-control btn btn-outline-info" value="Sign UP"><a id="homLink" class="d-none" href="./home.html"></a>Sign UP</button>
+ 
+            </div>
+           
+       
+          <p class="links">Your have an account?<a class="text-white m-2 text-decoration-none" href="./index.html">Signin</a>
+        
+        </p>
+       
+        </div>
+      
+    </div>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/indx.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+}
+.groub{
+      
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.titel{
+    text-align: center;
+    color: #17a2b8;
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+   
+    font-weight: 500;
+    
+}
+.groub-inbut input{
+    background-color:transparent;
+    color: wheat;
+    margin: 5px 0;
+    padding: 5px 5px;
+  
+    
+}
+.groub-button{
+    padding: 20px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+ 
+.links{
+    text-align: center;
+    color:white;
+    font-size: 1.1rem;
+}
+.header{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1); 
+    height: 50px;
+}
+.message{
+    width: 400px;
+    height: 80px;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1); 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+p{
+ color: aqua; 
+    text-align: center;
+    padding-top: 30px;
+}
+.form-control:focus{
+    background-color: transparent;
+    color: aliceblue;
+
+}
+#passicon{
+    
+     padding-bottom: 50px;
+     cursor: pointer;
+} 
+#successMessage{
+    color: darkgreen;
+}
